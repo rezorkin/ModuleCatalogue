@@ -1,0 +1,37 @@
+[
+  {
+    "name": "ARCHITECTURE AND OPERATING SYSTEMS",
+    "description": "This module provides an introduction to the underlying logical structure of computer systems. It emphasises the logical and theoretical concepts upon which computing systems are physically constructed. Within this module the underpinning decision logic of computer systems is developed alongside an understanding of operating systems. The module aims include: To engage students with the logical concepts that form the basis of computer architectures and organisation, to engage students with the development and functions, architecture and processes of the CPU, to engage students with the development and functions, architecture and processes of operating system software, and to examine the use of algorithms in operating system software.",
+    "duration": "200 hours",
+    "creditScore": 20,
+    "moduleCoordinator": "DR FARZAD ARABIKHAN"
+  },
+  {
+    "name": "CORE COMPUTING CONCEPTS",
+    "description": "This module covers four foundational topics central to a broad understanding of the discipline of computing science and for developing computing systems. Each topic will be covered over a six week block, knowledge gained will be applied during several later modules and, depending on a student's degree programme, will be developed further. An exploration of the history, major advances and trends in computing are discussed to give students a context for subsequent study. Foundations of computer system usability and cyber security are covered during the next two blocks. The final block introduces a technology that is specific to the student's degree course, but which is not covered in a dedicated module elsewhere at level 4.",
+    "duration": "200 hours",
+    "creditScore": 20,
+    "moduleCoordinator": "MR NADIM BAKHSHOV"
+  },
+  {
+    "name": "DATABASE SYSTEMS DEVELOPMENT",
+    "description": "This module will equip students with a comprehensive understanding of the theory behind relational database design, leveraging industry-standard tools. Special emphasis will be placed on developing databases using Crow's Foot Entity Relationship Diagrams (ERDs) and SQL, tools that are crucial in the creation of databases. Students will be given ample opportunities to practise using these tools. The module will also introduce the concept of normalisation theory, a key principle in simplifying complex information into manageable data. This understanding forms a significant part of designing and using a database effectively. This method is integral to creating databases that are not only efficient but also maintainable and scalable. Beyond the design, the module will venture into the operational aspects of databases, focusing extensively on the use of SQL for data querying. Students will learn to craft accurate SQL queries to extract the necessary data and information, a critical skill that allows businesses to generate actionable insights from their data. Offering a rounded understanding of database systems development'from theoretical underpinnings to practical skills'the module is designed to prepare students for real-world database scenarios in a business environment. By the end of this module, students will not only be proficient in creating databases but will also be capable of operating them to meet business requirements.",
+    "duration": "200 hours",
+    "creditScore": 20,
+    "moduleCoordinator": "MR VALENTIN ADAMESCU"
+  },
+  {
+    "name": "PRACTICAL DATA SCIENCE",
+    "description": "Data science requires a multidisciplinary approach. This involves introducing students to a broad range of core concepts, statistical methods and techniques that underpin data science. This module will explore and apply the foundational topics in data science, namely: data manipulation, data analytics and statistics. This module will help students have a better understanding of data analytics and to be able to locate, access and critically engage with data and information, using current and emerging digital technologies.",
+    "duration": "200 hours",
+    "creditScore": 20,
+    "moduleCoordinator": "DR FARZAD ARABIKHAN"
+  },
+  {
+    "name": "PROGRAMMING",
+    "description": "This module covers the theory and practice of developing computer programs, covering both algorithm development and object-oriented programming. The module provides the student with guidance and support to enable them to increase their knowledge and skills in programming irrespective of their starting point. Techniques of program design focusing on algorithm development, object-oriented programming and graphical user interface (GUI) construction are taught alongside the Python programming language. Programming using the Dart programming language is also introduced to provide students with more breadth and a solid foundation for subsequent learning of a range of further programming technologies.",
+    "duration": "400 hours",
+    "creditScore": 40,
+    "moduleCoordinator": "DR MATTHEW POOLE"
+  }
+]
