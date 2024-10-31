@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     display: flex;
+    justify-content: center;
     background-image: url('/modulecatalogueBackPage.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -13,29 +14,59 @@
 }
 .box {
     background: #e1ebe8;
-    width: 75%;
     border-radius: 1em;
-    margin: 0 auto;
-    margin-bottom: 2em;
+    margin: 0;
+    margin-top: 2em;
+    width: 65em;
     color: #130c11;
     box-shadow: 0em 1em 2em #2c2a34;
+}
+.box > .grey_zone {
+    background-color: darkgrey;
+    border-top-left-radius: 0; 
+    border-top-right-radius: 0; 
+    border-bottom-left-radius: inherit; 
+    border-bottom-right-radius: inherit; 
+    width: inherit;
 }
 header {
     padding: 0;
     margin: 0;
+    text-align: center;
 }
 header>h1 {
     font-size: 3em;
     text-transform: uppercase;
+    padding-top: 0;
+    margin-top: 0;
 }
-ul {
+.box > ul {
     list-style-type: none;
     text-align: left;
+    background-color: inherit;
 }
-aside{
+.box > article {
+    padding: 1em;
+}
+ol {
+    
+}
+ol>li {
+    margin: 1em;
 }
 ol {
     list-style-position: inside;
-    list-style-type: decimal;
+    list-style-type: none;
+    padding: 0em;
 }
-
+ol li {
+    counter-increment: item;
+    position: relative;
+}
+ol li::before {
+    content: counter(item);
+    position: absolute;
+    left: 1em;
+    top: 0.5em;
+    color: slategrey;
+}
