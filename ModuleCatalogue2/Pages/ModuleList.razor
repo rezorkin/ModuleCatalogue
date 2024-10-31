@@ -4,17 +4,23 @@
 
 @if(modules != null)
 {
-    @foreach (var module in modules)
-    {
-        <h2>@module.name</h2>
-        <p><strong>Description:</strong>@module.description</p>
-        <p><strong>Duration:</strong>@module.duration</p>
-        <p><strong>Credits:</strong>@module.creditScore</p>
-        <section>
-            <h2>module co-ordinator</h2>
-            <p>@module.moduleCoordinator</p>
-        </section>
-    }
+    <ol>
+        @foreach (var module in modules)
+        {
+            <li>
+                <article class="box">
+                    <h2>@module.name</h2>
+                    <p><strong>Description:</strong>@module.description</p>
+                    <p><strong>Duration:</strong>@module.duration</p>
+                    <p><strong>Credits:</strong>@module.creditScore</p>
+                    <section>
+                        <h2>module co-ordinator</h2>
+                        <p>@module.moduleCoordinator</p>
+                    </section>
+                </article>
+            </li>
+        }
+    </ol>
 }
 
 
