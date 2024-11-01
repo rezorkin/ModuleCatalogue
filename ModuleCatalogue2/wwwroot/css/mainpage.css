@@ -1,8 +1,5 @@
 ﻿body{
-
-    height: 100%;
     margin: 0;
-    padding: 0;
     display: flex;
     justify-content: center;
     background-image: url('/modulecatalogueBackPage.png');
@@ -15,47 +12,45 @@
 .box {
     background: #e1ebe8;
     border-radius: 1em;
-    margin: 0;
     margin-top: 2em;
     width: 65em;
     color: #130c11;
     box-shadow: 0em 1em 2em #2c2a34;
 }
-.box > .grey_zone {
-    background-color: darkgrey;
-    border-top-left-radius: 0; 
-    border-top-right-radius: 0; 
+.grey_zone {
+    background-color: #b0b3b8;
     border-bottom-left-radius: inherit; 
     border-bottom-right-radius: inherit; 
-    width: inherit;
+}
+section {
+    display: none;
+}
+
+.box:hover section{
+    display: block;
 }
 header {
-    padding: 0;
-    margin: 0;
     text-align: center;
 }
 header>h1 {
     font-size: 3em;
     text-transform: uppercase;
-    padding-top: 0;
-    margin-top: 0;
 }
-.box > ul {
+ul {
     list-style-type: none;
-    text-align: left;
-    background-color: inherit;
+    font-size: 1.25em;
+    font-style: oblique;
+    font-family: 'Arial', Arial, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    margin-bottom: 0.5em;
+    color: #4a4848;
 }
 .box > article {
     padding: 1em;
 }
 ol {
-    
-}
-ol>li {
-    margin: 1em;
-}
-ol {
-    list-style-position: inside;
     list-style-type: none;
     padding: 0em;
 }
