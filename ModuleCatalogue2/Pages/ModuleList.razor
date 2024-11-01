@@ -4,19 +4,25 @@
 
 @if(modules != null)
 {
+    <nav>
+    @for(int i = 0; i < modules.Count(); i++)
+    {
+            <a href="#@i"> @modules[i].name</a>
+    }
+    </nav>
     <ol>
-        @foreach (var module in modules)
+        @for(int b = 0; b < modules.Count(); b++)
         {
             <li class="box">
                 <article>
-                    <h2>@module.name</h2>
-                    <p><strong>Description:</strong>@module.description</p>
-                    <p><strong>Duration:</strong>@module.duration</p>
-                    <p><strong>Credits:</strong>@module.creditScore</p>
+                    <h2 id="@b">@modules[b].name</h2>
+                    <p><strong>Description:</strong>@modules[b].description</p>
+                    <p><strong>Duration:</strong>@modules[b].duration</p>
+                    <p><strong>Credits:</strong>@modules[b].creditScore</p>
                 </article>
                 <section class="grey_zone">
                     <h2>module co-ordinator</h2>
-                    <p>@module.moduleCoordinator</p>
+                    <p>@modules[b].moduleCoordinator</p>
                 </section>
             </li>
         }
