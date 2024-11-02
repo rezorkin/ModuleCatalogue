@@ -1,15 +1,26 @@
-﻿@page "/"
+﻿@page "/ModuleCatalogue"
 @inject HttpClient Http
+@inject NavigationManager Navigation
 @layout MainLayout
 
+<link href="css/ModuleCatalogue.css" rel="stylesheet">
 @if(modules != null)
 {
-    <nav>
-    @for(int i = 0; i < modules.Count(); i++)
-    {
-            <a href="#@i"> @modules[i].name</a>
-    }
-    </nav>
+    <header class="box">
+        <h1>Module Catalogue</h1>
+        <ul>
+            <li>Data Science and Analytics</li>
+            <li>Year 1</li>
+            <li>University of Portsmouth</li>
+        </ul>
+        <nav class="page_navigation">
+            @for (int i = 0; i < modules.Count(); i++)
+            {
+                <a class="page_a" href="@Navigation.Uri/#@i"> @modules[i].name</a>
+            }
+        </nav>
+        <aside class="grey_zone">Course code: U2686PYC</aside>
+    </header>
     <ol>
         @for(int b = 0; b < modules.Count(); b++)
         {
@@ -28,6 +39,5 @@
         }
     </ol>
 }
-
 
 
