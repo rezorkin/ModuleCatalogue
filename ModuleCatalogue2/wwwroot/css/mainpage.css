@@ -7,21 +7,22 @@
     font-family: 'Helvetica', sans-serif;
 }
 .site_navigation {
-    justify-content:flex-start;
-    grid-gap: 0;
+    background-color: #b895ed;
+    padding: 0;
+    box-shadow: 0em 0.5em 1em #3c3a45;
+    display: flex;
+    flex-direction: row;
 }
 .site_a {
-    padding: 0.3em;
+    
     color: #130c11;
     text-decoration: none;
-    border: 0.2em solid;
-    border-color: rgba(0, 0, 0, 0);
     font-size: 0.9em;
     transition: all 0.2s ease-out;
-    color: #e1ebe8;
     margin: 0;
+    padding: 0.6em
 }
 .site_a:hover,
 .site_a:focus {
-  border-color: #e1ebe8;
+    background-color: #d2bdf2;
 }
