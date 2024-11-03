@@ -73,7 +73,7 @@ ol li::before {
     grid-auto-rows: 1fr;
     gap: 0.1em;
     text-align: center;
-    background-color: #e1ebe8;
+    background-color: : #a37fdb;
     overflow: hidden;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
